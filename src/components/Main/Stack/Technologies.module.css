@@ -1,0 +1,23 @@
+.technologiesContainer {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.span {
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 10px;
+    color: #1B1B1B;
+}
+
+.container {
+    display: flex;
+}
+
+@media(max-width: 420px) {
+    .span {
+        font-size: 14px;
+        line-height: 20px;
+    }
+}

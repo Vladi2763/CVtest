@@ -1,0 +1,115 @@
+.stackContainer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.wrapper {
+    width: 230px;
+}
+
+
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.stackImg {
+    width: 18px;
+    height: 18px;
+    margin-right: 12px;
+}
+
+.titleText {
+    font-size: 20px;
+    line-height: 28px;
+    color: #1B1B1B;
+    font-family: 'Cabin';
+}
+
+.wrapperMain {
+    display: flex;
+    flex-direction: column;
+    width: calc(100% - 258px)
+}
+
+.wrapperMain img {
+    cursor: pointer;
+}
+
+.wrapperMain::after {
+    content: '';
+    margin-top: 28px;
+    margin-bottom: 28px;
+    border: 1px solid #EBEBEB;
+}
+
+.currentStack {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.currentStack img {
+    margin-left: 10px;
+}
+
+.wrapperExp {
+    margin-top: 24px;
+}
+
+.expereinceIn {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.expereinceIn img {
+    margin-left: 10px;
+}
+
+.expIn {
+    font-size: 16px;
+    line-height: 24px;
+    color: #1B1B1B;
+    margin-right: 14px;
+}
+
+@media(max-width: 1000px) {
+    .wrapper {
+        width: 190px;
+    }
+
+    .wrapperMain {
+        display: flex;
+        flex-direction: column;
+        width: calc(100% - 210px)
+    }
+}
+
+@media(max-width: 540px) {
+    .stackContainer {
+        flex-direction: column;
+    }
+
+    .wrapper {
+        width: 100%;
+        margin-bottom: 14px;
+    }
+
+    .wrapperMain {
+        width: 100%;
+    }
+}
+
+@media(max-width: 420px) {
+    .titleText {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .expIn {
+        font-size: 14px;
+        line-height: 20px;
+    }
+}

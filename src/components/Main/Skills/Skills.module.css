@@ -1,0 +1,98 @@
+.wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container {
+    width: 230px;
+}
+
+.skills {
+    display: flex;
+    align-items: center;
+}
+
+.skills img {
+    width: 22px;
+    height: 22px;
+    margin-right: 12px;
+}
+
+.skills span {
+    font-family: 'Cabin';
+    font-size: 20px;
+    line-height: 28px;
+    color: #1B1B1B;
+}
+
+.cardsContainer {
+    width: calc(100% - 258px)
+}
+
+.text {
+    font-size: 16px;
+    line-height: 24px;
+    color: #1B1B1B;
+}
+
+.title {
+    margin-top: 12px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.title img {
+    margin-right: 8px;
+    cursor: pointer;
+}
+
+.title span {
+    font-size: 16px;
+    line-height: 24px;
+    color: #6B6B6B;
+}
+
+@media(max-width: 1000px) {
+
+    .container {
+        width: 190px;
+    }
+
+    .cardsContainer {
+        width: calc(100% - 210px)
+    }
+}
+
+@media(max-width: 540px) {
+    .wrapper {
+        flex-direction: column;
+    }
+
+    .cardsContainer {
+        width: 100%;
+    }
+
+    .container {
+        margin-bottom: 14px;
+    }
+
+}
+
+@media(max-width: 420px) {
+    .skills span {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .text {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .title span {
+        font-size: 14px;
+        line-height: 20px; 
+    }
+}

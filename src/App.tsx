@@ -1,24 +1,25 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import Overview from './components/Header/Overview';
+import Main from './components/Main/Main';
+import Footer from './components/Footer/Footer';
+import { useEffect } from 'react';
+import { getData } from './store/Actions';
+import { useDispatch } from 'react-redux';
+
+import classes from "./App.module.css"
+
 
 function App() {
+
+  const dispatch = useDispatch()
+  useEffect(() => {
+    dispatch(getData())
+  }, [dispatch])
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className={classes.container}>
+      <Overview />
+      <Main />
+      <Footer />
     </div>
   );
 }

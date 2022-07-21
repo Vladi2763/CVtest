@@ -1,0 +1,137 @@
+    {
+        "name": "Ivan",
+        "surname": "Ivanov",
+        "post": "Senior Frontend Developer",
+        "experience": 6,
+        "timeZone": "XX am - XX pm",
+        "availability": "Ready to start now",
+        "workTime": "Full time",
+        "description": "Imperdiet tellus neque nunc, etiam vitae risus quis semper. Tempus egestas mauris fringilla iaculis feugiat tincidunt auctor tellus. Faucibus enim condimentum est adipiscing varius id fermentum tincidunt nisl. Aliquam. Faucibus enim condimentum est adipiscing varius id fermentum tincidunt nisl. Aliquam. Faucibus enim condimentum est adipiscing varius id fermentum tincidunt nisl. Aliquam.",
+        "languages": [
+            "javascript",
+            "javascript",
+            "javascript",
+            "javascript",
+            "javascript"
+        ],
+        "technologies": [
+            "react",
+            "react"
+        ],
+        "experienceIn": [
+            "Redux",
+            "Azure"
+        ],
+        "workExperience": [
+            {
+                "post": "Senior Frontend Developer",
+                "company": "Sberbank",
+                "startWork": "June 2019",
+                "endWork": "October 2021",
+                "description": "Imperdiet tellus neque nunc, etiam vitae risus quis semper. Tempus egestas mauris fringilla iaculis feugiat tincidunt auctor tellus. Faucibus enim condimentum est adipiscing varius id fermentum tincidunt nisl. Aliquam.  Tempus egestas mauris fringilla iaculis feugiat tincidunt auctor tellus. Faucibus enim condimentum est adipiscing varius id fermentum tincidunt nisl. Aliquam.",
+                "languages": [
+                    "javascript",
+                    "javaspring"
+                ],
+                "technologies": [
+                    "react",
+                    "node.js"
+                ]
+            },
+            {
+                "post": "Senior Frontend Developer",
+                "company": "Sberbank",
+                "startWork": "June 2019",
+                "endWork": "October 2021",
+                "description": "Imperdiet tellus neque nunc, etiam vitae risus quis semper. Tempus egestas mauris fringilla iaculis feugiat tincidunt auctor tellus. Faucibus enim condimentum est adipiscing varius id fermentum tincidunt nisl. Aliquam.  Tempus egestas mauris fringilla iaculis feugiat tincidunt auctor tellus. Faucibus enim condimentum est adipiscing varius id fermentum tincidunt nisl. Aliquam.",
+                "languages": [
+                    "javascript",
+                    "javaspring"
+                ],
+                "technologies": [
+                    "react",
+                    "node.js"
+                ]
+            }
+        ],
+        "education": [
+            {
+                "university": "boston academy",
+                "speciality": "Computer science",
+                "startStudy": "June 2019",
+                "endStudy": "October 2021"
+            },
+            {
+                "university": "boston academy",
+                "speciality": "Computer science",
+                "startStudy": "June 2019",
+                "endStudy": "October 2021"
+            }
+        ],
+        "skills": [
+            {
+                "skill": "react",
+                "rating": 4.8,
+                "quiz": [
+                    {
+                        "dom": 4.5
+                    },
+                    {
+                        "html": 4.2
+                    },
+                    {
+                        "css": 4
+                    },
+                    {
+                        "javascript": 3
+                    },
+                    {
+                        "react components": 3.5
+                    }
+                ],
+                "codingChallenge": [
+                    {
+                        "Sorting algoritm": 4.5
+                    },
+                    {
+                        "Strings and arrays": 4.2
+                    },
+                    {
+                        "Complexity": 4
+                    }
+                ]
+            },
+            {
+                "skill": "react",
+                "rating": 4.8,
+                "quiz": [
+                    {
+                        "dom": 4.5
+                    },
+                    {
+                        "html": 4.2
+                    },
+                    {
+                        "css": 4
+                    },
+                    {
+                        "javascript": 3
+                    },
+                    {
+                        "react components": 3.5
+                    }
+                ],
+                "codingChallenge": [
+                    {
+                        "Sorting algoritm": 4.5
+                    },
+                    {
+                        "Strings and arrays": 4.2
+                    },
+                    {
+                        "Complexity": 4
+                    }
+                ]
+            }
+        ]
+    }

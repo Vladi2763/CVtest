@@ -1,0 +1,168 @@
+.textContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.post {
+    font-size: 18px;
+    line-height: 24px;
+    color: #1B1B1B;
+}
+
+.company {
+    font-size: 14px;
+    line-height: 20px;
+    color: #6B6B6B;
+    margin-top: 2px;
+}
+
+.datesContainer {
+    display: flex;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.datesContainer img {
+    margin-right: 10px;
+}
+
+.datesContainer span {
+    font-size: 14px;
+    line-height: 20px;
+    color: #1B1B1B;
+}
+
+.datesContainer div {
+    display: flex;
+    align-items: center;
+}
+
+.char {
+    margin-left: 14px;
+    margin-right: 14px;
+}
+
+.description {
+    font-size: 14px;
+    line-height: 20px;
+    color: #1B1B1B;
+}
+
+.languagesContainer {
+    margin-top: 16px;
+}
+
+.languages {
+    display: flex;
+    margin-top: 9px;
+}
+
+.language {
+    display: flex;
+    align-items: center;
+    margin-right: 25px;
+}
+
+.language img {
+    margin-right: 6px;
+}
+
+.language span {
+    text-transform: capitalize;
+}
+
+.titleText {
+    font-size: 16px;
+    line-height: 24px;
+    color: #1B1B1B;
+}
+
+.technologiesContainer {
+    margin-top: 16px;
+}
+
+.technologies {
+    display: flex;
+    margin-top: 9px;
+}
+
+.technologie {
+    display: flex;
+    align-items: center;
+    margin-right: 25px;
+}
+
+.technologie img {
+    margin-right: 6px;
+}
+
+.technologie span {
+    text-transform: capitalize;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.wrapper::after {
+    content: '';
+    margin-top: 21px;
+    margin-bottom: 20px;
+    border: 1px solid #EBEBEB;
+}
+
+.wrap {
+    display: flex;
+    position: relative;
+}
+
+.wrap::before {
+    content: '';
+    margin-right: 27px;
+    border: 1px solid #EBEBEB;
+}
+
+.elipse {
+    position: absolute;
+    left: -6px;
+    width: 14px;
+    height: 14px;
+    border-radius: 100%;
+    background-color: #373AF5;
+}
+
+@media(max-width: 420px) {
+    .wrap::before {
+        margin-left: 10px;
+    }
+
+    .elipse {
+        left: 4px;
+    }
+
+    .post {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .company {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .datesContainer span {
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+    .char {
+        margin-left: 4px;
+        margin-right: 4px;
+    }
+
+    .titleText {
+        font-size: 14px;
+        line-height: 20px;
+    }
+}

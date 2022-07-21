@@ -1,0 +1,15 @@
+.container {
+    width: calc(100% - 258px)
+}
+
+@media(max-width: 1000px) {
+    .container {
+        width: calc(100% - 210px)
+    }
+}
+
+@media(max-width: 540px) {
+    .container {
+        width: 100%;
+    }
+}

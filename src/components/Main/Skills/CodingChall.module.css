@@ -1,0 +1,88 @@
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttonContainer {
+    width: 160px;
+    display: flex;
+    flex-direction: column;
+}
+
+.text {
+    font-size: 18px;
+    line-height: 24px;
+    color: #1B1B1B;
+    margin-bottom: 28px;
+}
+
+.button {
+    padding: 8px 20px;
+    width: 160px;
+    height: 40px;
+    background: #FFFFFF;
+    border: 1px solid #373AF5;
+    border-radius: 8px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #373AF5;
+    cursor: pointer;
+}
+
+.mainContainer {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    max-width: 470px;
+}
+
+.intro {
+    font-size: 12px;
+    line-height: 16px;
+    color: #6B6B6B;
+}
+
+.containerCodingSkill {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.codingSkill {
+    font-size: 16px;
+    line-height: 24px;
+    color: #1B1B1B;
+    text-transform: capitalize;
+}
+
+@media(max-width: 750px) {
+    .buttonContainer {
+        width: 100%;
+        margin-top: 6px;
+    }
+
+    .button {
+        width: 100%;
+    }
+
+    .wrapper {
+        flex-direction: column-reverse;
+    }
+
+    .mainContainer {
+        width: 100%;
+    }
+}
+
+@media(max-width: 420px) {
+    .text {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .codingSkill {
+        font-size: 12px;
+        line-height: 16px;
+    }
+}

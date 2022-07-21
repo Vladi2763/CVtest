@@ -1,0 +1,49 @@
+.container {
+    display: flex;
+    flex-shrink: 0;
+    height: 80px;
+    margin-top: 20px;
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding-left: 32px;
+    padding-right: 64px;
+    background: #F7F7FA;
+    border-radius: 20px;
+}
+
+.wrapper span {
+    font-family: 'Cabin';
+    font-size: 20px;
+    line-height: 28px;
+    color: #1B1B1B;
+}
+
+
+@media(max-width: 750px) {
+    .wrapper {
+        flex-direction: column;
+        justify-content: space-around;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .wrapper span {
+        text-align: center;
+    }
+
+    .container {
+        height: 154px;
+    }
+}
+
+@media(max-width: 420px) {
+    .wrapper span {
+        font-size: 18px;
+        line-height: 24px;
+    }
+}

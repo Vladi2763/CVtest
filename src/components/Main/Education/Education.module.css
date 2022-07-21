@@ -1,0 +1,50 @@
+.wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container {
+    width: 230px;
+}
+
+.education {
+    display: flex;
+    align-items: center;
+}
+
+.education img {
+    width: 22px;
+    height: 22px;
+    margin-right: 12px;
+}
+
+.education span {
+    font-family: 'Cabin';
+    font-size: 20px;
+    line-height: 28px;
+    color: #1B1B1B;
+}
+
+@media(max-width: 1000px) {
+    .container {
+        width: 190px;
+    }
+}
+
+@media(max-width: 540px) {
+    .wrapper {
+        flex-direction: column;
+    }
+
+    .container {
+        margin-bottom: 16px;
+    }
+}
+
+@media(max-width: 420px) {
+    .education span {
+        font-size: 18px;
+        line-height: 24px;
+    }
+}
